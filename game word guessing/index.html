@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word Guessing Game JavaScript</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Libre+Baskerville&family=Source+Serif+4:wght@500&family=Ysabeau+Infant:ital@1&family=Ysabeau+SC:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Diphylleia&family=Libre+Baskerville&family=Source+Serif+4:wght@500&family=Ysabeau+Infant:ital@1&family=Ysabeau+SC:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 style="font-family: 'Diphylleia', serif;
+      font-family: 'Libre Baskerville', serif;
+      font-family: 'Source Serif 4', serif;
+      font-family: 'Ysabeau Infant', sans-serif;
+      font-family: 'Ysabeau SC', sans-serif;">Guess the Word</h1>
+      <div class="content">
+        <input type="text" class="typing-input" maxlength="1">
+        <div class="inputs"></div>
+        <div class="details">
+          <p class="hint" style="font-family: 'Diphylleia', serif;
+          font-family: 'Libre Baskerville', serif;
+          font-family: 'Source Serif 4', serif;
+          font-family: 'Ysabeau Infant', sans-serif;
+          font-family: 'Ysabeau SC', sans-serif;">Hint: <span></span></p>
+          <p class="guess-left" style="font-family: 'Diphylleia', serif;
+          font-family: 'Libre Baskerville', serif;
+          font-family: 'Source Serif 4', serif;
+          font-family: 'Ysabeau Infant', sans-serif;
+          font-family: 'Ysabeau SC', sans-serif;">Remaining guesses: <span></span></p>
+          <p class="wrong-letter" style="font-family: 'Diphylleia', serif;
+          font-family: 'Libre Baskerville', serif;
+          font-family: 'Source Serif 4', serif;
+          font-family: 'Ysabeau Infant', sans-serif;
+          font-family: 'Ysabeau SC', sans-serif;">Wrong letters: <span></span></p>
+        </div>
+        <button class="reset-btn" style="font-family: 'Diphylleia', serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Source Serif 4', serif;
+        font-family: 'Ysabeau Infant', sans-serif;
+        font-family: 'Ysabeau SC', sans-serif;">Reset Game</button>
+      </div>
+    </div>
+
+    <script src="./words.js"></script>
+    <script src="./script.js"></script>
+
+  </body>
+</html>
